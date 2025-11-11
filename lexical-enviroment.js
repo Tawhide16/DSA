@@ -1,4 +1,4 @@
-// Counter নামে একটা class বানানো হলো
+
 class counter {
     // Constructor: object তৈরি হওয়ার সময় initial count value সেট করে
     constructor(count) {
