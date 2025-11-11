@@ -11,7 +11,7 @@ class stack {
         if(this.isEmpty()){
              return undefined; // যদি stack খালি থাকে তাহলে undefined রিটার্ন করবে{
         }
-            return this.items.pop(); // stack এর উপরের item টা রিমুভ করে রিটার্ন করবে
+            return this.items.pop(); 
     }
     //0(1)
     peek(){
