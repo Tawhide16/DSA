@@ -4,7 +4,7 @@ class stack {
     }
     //0(1)
     push(value){
-        this.items.push(value); // নতুন item stack এর উপরে যোগ করা
+        this.items.push(value); 
     }
     //0(1)
     pop(){
