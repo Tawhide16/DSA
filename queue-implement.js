@@ -1,6 +1,6 @@
 class Queue {
     constructor(){
-        this.items = []; // stack এর item গুলো রাখার জন্য array
+        this.items = []; 
     }
     //0(1)
     enqueue(value){
