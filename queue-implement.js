@@ -22,12 +22,11 @@ class Queue {
     }
     //0(1)
     isEmpty(){
-        return this.items.length ===0 ; 
-    
+        return this.items.length ===0 ; // stack খালি কিনা চেক করবে
     }
     //0(n)
     print(){
-        console.log(this.items.join(",")); // stack এর item গুলো উপরে থেকে নিচে পর্যন্ত দেখাবে
+        console.log(this.items.join(",")); 
     }
 }
 
