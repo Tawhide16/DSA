@@ -18,7 +18,7 @@ class Queue {
         if(this.isEmpty()){
             return undefined; // যদি stack খালি থাকে তাহলে undefined রিটার্ন করবে
         }
-        return this.items[0]; 
+        return this.items[0]; // stack এর উপরের item টা রিটার্ন করবে
     }
     //0(1)
     isEmpty(){
