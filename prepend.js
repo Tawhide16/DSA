@@ -84,7 +84,7 @@ class LinkedList {
       return undefined;
     }
 
-    // যদি linked list এর শুরুতে ঢোকাতে চাও
+    
     if (index === 0) {
       return this.prepend(value);
     }
