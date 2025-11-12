@@ -9,14 +9,14 @@ class stack {
     //0(1)
     pop(){
         if(this.isEmpty()){
-             return undefined; // যদি stack খালি থাকে তাহলে undefined রিটার্ন করবে{
+             return undefined; 
         }
             return this.items.pop(); 
     }
     //0(1)
     peek(){
         if(this.isEmpty()){
-            return undefined; 
+            return undefined; // যদি stack খালি থাকে তাহলে undefined রিটার্ন করবে
         }
         return this.items[this.items.length - 1]; // stack এর উপরের item টা রিটার্ন করবে
     }
