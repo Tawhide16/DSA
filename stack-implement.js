@@ -6,7 +6,7 @@ class stack {
     push(value){
         this.items.push(value); 
     }
-    //0(1)
+ 
     pop(){
         if(this.isEmpty()){
              return undefined; // যদি stack খালি থাকে তাহলে undefined রিটার্ন করবে{
