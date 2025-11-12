@@ -169,7 +169,7 @@ class LinkedList {
     let currentNode = this.head; // linked list head থেকে শুরু
 
     while (currentNode !== null) {
-      arr.push(currentNode.value); // node এর value array তে push
+      arr.push(currentNode.value); 
       currentNode = currentNode.next; // পরের node এ যাওয়া
     }
 
