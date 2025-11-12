@@ -131,7 +131,7 @@ class LinkedList {
     // যদি প্রথম node remove করতে চাও
     if (index === 0) {
       const removedNode = this.head;
-      this.head = this.head.next; 
+      this.head = this.head.next; // head update
       this.length--;
       return removedNode;
     }
