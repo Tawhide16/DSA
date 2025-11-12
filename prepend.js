@@ -122,7 +122,7 @@ class LinkedList {
   // ❌ remove(index) — linked list থেকে node remove করা
   // ================================
   remove(index) {
-    // যদি ভুল index হয়
+    
     if (index < 0 || index >= this.length) {
       console.error("Index out of bound: ভুল index দিয়েছেন!");
       return undefined;
