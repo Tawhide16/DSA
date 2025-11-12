@@ -35,4 +35,4 @@ const myStack = new stack();
 myStack.push(10); // stack এ 10 যোগ করা
 myStack.push(20); // stack এ 20 যোগ করা
 myStack.push(30); // stack এ 30 যোগ করা
-myStack.print(); // Output: 30/20/10
+myStack.print(); 
