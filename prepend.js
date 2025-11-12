@@ -166,7 +166,7 @@ class LinkedList {
   // ================================
   print() {
     const arr = []; // values রাখার জন্য array
-    let currentNode = this.head; // linked list head থেকে শুরু
+    let currentNode = this.head; 
 
     while (currentNode !== null) {
       arr.push(currentNode.value); // node এর value array তে push
