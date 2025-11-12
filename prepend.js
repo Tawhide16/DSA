@@ -170,7 +170,7 @@ class LinkedList {
 
     while (currentNode !== null) {
       arr.push(currentNode.value); // node এর value array তে push
-      currentNode = currentNode.next; 
+      currentNode = currentNode.next; // পরের node এ যাওয়া
     }
 
     // linked list কে দেখতে সুন্দরভাবে print করা
