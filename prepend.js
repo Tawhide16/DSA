@@ -74,7 +74,9 @@ class LinkedList {
     return this;
   }
 
- 
+  // ================================
+  // 🏗 insert(index, value) — linked list এর মাঝখানে node যোগ করা
+  // ================================
   insert(index, value) {
     // যদি ভুল index হয়
     if (index < 0 || index > this.length) {
