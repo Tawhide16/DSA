@@ -95,7 +95,7 @@ class LinkedList {
     }
 
     // যদি linked list এর মাঝখানে ঢোকাতে চাও
-    // প্রথমে previous node খুঁজে বের করব
+    
     let count = 0;
     let leadingNode = this.head;
 
@@ -111,7 +111,7 @@ class LinkedList {
     newNode.next = leadingNode.next; // নতুন node এর next হবে previous node এর পরের node
     leadingNode.next = newNode; // previous node এর next হবে নতুন node
 
-    // linked list এর length ১ বৃদ্ধি
+    
     this.length++;
 
     // পুরো linked list return করি
@@ -141,7 +141,7 @@ class LinkedList {
     let leadingNode = this.head;
 
     while (count !== index - 1) {
-      leadingNode = leadingNode.next;
+      l// linked list এর length ১ বৃদ্ধিeadingNode = leadingNode.next;
       count++;
     }
 
