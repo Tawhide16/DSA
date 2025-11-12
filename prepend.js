@@ -111,7 +111,7 @@ class LinkedList {
     newNode.next = leadingNode.next; // নতুন node এর next হবে previous node এর পরের node
     leadingNode.next = newNode; // previous node এর next হবে নতুন node
 
-    
+    // linked list এর length ১ বৃদ্ধি
     this.length++;
 
     // পুরো linked list return করি
