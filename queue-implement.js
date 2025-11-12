@@ -9,9 +9,9 @@ class Queue {
     //0(n)
     dequeue(){
         if(this.isEmpty()){
-             return undefined; // যদি stack খালি থাকে তাহলে undefined রিটার্ন করবে{
+             return undefined; 
         }
-            return this.items.shift(); 
+            return this.items.shift(); // stack এর উপরের item টা রিমুভ করে রিটার্ন করবে
     }
     //0(1)
     peek(){
