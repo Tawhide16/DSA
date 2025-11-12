@@ -35,4 +35,4 @@ const myStack = new Queue();
 myStack.enqueue(10); // stack এ 10 যোগ করা
 myStack.enqueue(20); // stack এ 20 যোগ করা
 myStack.enqueue(30); // stack এ 30 যোগ করা
-myStack.print(); // Output: 30/20/10
+myStack.print(); 
