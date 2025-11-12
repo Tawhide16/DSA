@@ -185,7 +185,7 @@ const list = new LinkedList();
 
 list.append(10);   // linked list: 10 -> null
 list.append(20);   // linked list: 10 -> 20 -> null
-list.append(30);   
+list.append(30);   // linked list: 10 -> 20 -> 30 -> null
 list.prepend(5);   // linked list: 5 -> 10 -> 20 -> 30 -> null
 list.insert(2, 15); // linked list: 5 -> 10 -> 15 -> 20 -> 30 -> null
 list.remove(3);     // 20 remove, linked list: 5 -> 10 -> 15 -> 30 -> null
