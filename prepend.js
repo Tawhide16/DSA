@@ -136,7 +136,7 @@ class LinkedList {
       return removedNode;
     }
 
-    // previous node খুঁজে বের করা
+   
     let count = 0;
     let leadingNode = this.head;
 
