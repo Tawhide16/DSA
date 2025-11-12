@@ -22,7 +22,7 @@ class Queue {
     }
     //0(1)
     isEmpty(){
-        return this.items.length ===0 ; 
+        return this.items.length ===0 ; // stack খালি কিনা চেক করবে
     }
     //0(n)
     print(){
