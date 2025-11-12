@@ -178,7 +178,9 @@ class LinkedList {
   }
 }
 
-
+// ================================
+// ✅ Example ব্যবহার
+// ================================
 const list = new LinkedList();
 
 list.append(10);   // linked list: 10 -> null
