@@ -22,9 +22,9 @@ class stack {
     }
     //0(1)
     isEmpty(){
-        return this.items.length ===0 ; // stack খালি কিনা চেক করবে
+        return this.items.length ===0 ; 
     }
-
+    //0(n)
     print(){
         console.log(this.items.slice().reverse().join("/")); // stack এর item গুলো উপরে থেকে নিচে পর্যন্ত দেখাবে
     }
