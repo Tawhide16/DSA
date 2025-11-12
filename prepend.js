@@ -95,7 +95,7 @@ class LinkedList {
     }
 
     // যদি linked list এর মাঝখানে ঢোকাতে চাও
-    
+    // প্রথমে previous node খুঁজে বের করব
     let count = 0;
     let leadingNode = this.head;
 
