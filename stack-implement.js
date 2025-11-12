@@ -16,9 +16,9 @@ class stack {
     //0(1)
     peek(){
         if(this.isEmpty()){
-            return undefined; // যদি stack খালি থাকে তাহলে undefined রিটার্ন করবে
+            return undefined; 
         }
-        return this.items[this.items.length - 1]; 
+        return this.items[this.items.length - 1]; // stack এর উপরের item টা রিটার্ন করবে
     }
     //0(1)
     isEmpty(){
