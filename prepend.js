@@ -173,7 +173,7 @@ class LinkedList {
       currentNode = currentNode.next; // পরের node এ যাওয়া
     }
 
-   
+    // linked list কে দেখতে সুন্দরভাবে print করা
     console.log(arr.join(" -> "), "-> null");
   }
 }
