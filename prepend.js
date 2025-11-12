@@ -145,7 +145,7 @@ class LinkedList {
       count++;
     }
 
-    
+    // remove করা node বের করা
     const removedNode = leadingNode.next;
 
     // linked list এর link ঠিক করা
