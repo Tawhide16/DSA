@@ -18,11 +18,11 @@ class stack {
         if(this.isEmpty()){
             return undefined; // যদি stack খালি থাকে তাহলে undefined রিটার্ন করবে
         }
-        return this.items[this.items.length - 1]; // stack এর উপরের item টা রিটার্ন করবে
+        return this.items[this.items.length - 1]; 
     }
     //0(1)
     isEmpty(){
-        return this.items.length ===0 ; 
+        return this.items.length ===0 ; // stack খালি কিনা চেক করবে
     }
     //0(n)
     print(){
