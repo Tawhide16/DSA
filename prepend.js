@@ -89,7 +89,7 @@ class LinkedList {
       return this.prepend(value);
     }
 
-    // যদি linked list এর শেষে ঢোকাতে চাও
+   
     if (index === this.length) {
       return this.append(value);
     }
