@@ -13,7 +13,7 @@ class Queue {
         }
             return this.items.shift(); // stack এর উপরের item টা রিমুভ করে রিটার্ন করবে
     }
-    //0(1)
+    
     peek(){
         if(this.isEmpty()){
             return undefined; 
