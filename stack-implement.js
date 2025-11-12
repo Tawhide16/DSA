@@ -1,8 +1,8 @@
 class stack {
     constructor(){
-        this.items = []; // stack এর item গুলো রাখার জন্য array
+        this.items = [];
     }
-
+    //0(1)
     push(value){
         this.items.push(value); 
     }
