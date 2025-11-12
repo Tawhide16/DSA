@@ -26,7 +26,7 @@ class Queue {
     }
     //0(n)
     print(){
-        console.log(this.items.join(",")); // stack এর item গুলো উপরে থেকে নিচে পর্যন্ত দেখাবে
+        console.log(this.items.join(",")); 
     }
 }
 
