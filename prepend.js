@@ -165,7 +165,7 @@ class LinkedList {
   // 🖨 print() — linked list কে console এ print করা
   // ================================
   print() {
-    const arr = []; // values রাখার জন্য array
+    const arr = []; 
     let currentNode = this.head; // linked list head থেকে শুরু
 
     while (currentNode !== null) {
