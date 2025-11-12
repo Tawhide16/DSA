@@ -9,7 +9,7 @@ class stack {
     //0(1)
     pop(){
         if(this.isEmpty()){
-             return undefined; 
+             return undefined; // যদি stack খালি থাকে তাহলে undefined রিটার্ন করবে{
         }
             return this.items.pop(); 
     }
