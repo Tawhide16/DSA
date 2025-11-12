@@ -114,7 +114,7 @@ class LinkedList {
     // linked list এর length ১ বৃদ্ধি
     this.length++;
 
-   
+    // পুরো linked list return করি
     return this;
   }
 
