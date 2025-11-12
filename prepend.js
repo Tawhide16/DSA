@@ -183,7 +183,7 @@ class LinkedList {
 // ================================
 const list = new LinkedList();
 
-list.append(10);   
+list.append(10);   // linked list: 10 -> null
 list.append(20);   // linked list: 10 -> 20 -> null
 list.append(30);   // linked list: 10 -> 20 -> 30 -> null
 list.prepend(5);   // linked list: 5 -> 10 -> 20 -> 30 -> null
