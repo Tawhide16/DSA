@@ -30,7 +30,7 @@ class Queue {
     }
 }
 
-// stack class থেকে নতুন object তৈরি
+
 const myStack = new Queue();
 myStack.enqueue(10); // stack এ 10 যোগ করা
 myStack.enqueue(20); // stack এ 20 যোগ করা
