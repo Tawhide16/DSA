@@ -16,7 +16,7 @@ const head = new Node(10);
 // 🟡 head node এর next এ আরেকটা node জুড়ে দিলাম যার value 20
 head.next = new Node(20);
 
-
+// 🟠 দ্বিতীয় node এর (head.next) next এ আরেকটা node দিলাম যার value 30
 head.next.next = new Node(30);
 
 // 🔍 পুরো linked list টা console এ print করে দেখি কেমন দেখায়
