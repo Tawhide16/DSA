@@ -23,7 +23,7 @@ head.next.next = new Node(30);
 console.log(head);
 
 /*
-console এ দেখাবে এমন কিছু:
+
 Node {
   value: 10,
   next: Node {
