@@ -118,9 +118,7 @@ class LinkedList {
     return this;
   }
 
-  // ================================
-  // ❌ remove(index) — linked list থেকে node remove করা
-  // ================================
+
   remove(index) {
     // যদি ভুল index হয়
     if (index < 0 || index >= this.length) {
