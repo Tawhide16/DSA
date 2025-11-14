@@ -5,7 +5,7 @@ class Node {
         this.value = value;
 
         // next এ থাকবে পরের node এর reference (address)
-        // শুরুতে null কারণ প্রথমে কোনো next node নেই
+       
         this.next = null;
     }
 }
