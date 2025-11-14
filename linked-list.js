@@ -1,7 +1,7 @@
 
 class Node {
     constructor(value){
-        // প্রতিটা node এর মধ্যে একটা value থাকবে (যেমন 10, 20, 30)
+        
         this.value = value;
 
         // next এ থাকবে পরের node এর reference (address)
