@@ -23,17 +23,8 @@ head.next.next = new Node(30);
 console.log(head);
 
 /*
+console এ দেখাবে এমন কিছু:
 
-Node {
-  value: 10,
-  next: Node {
-    value: 20,
-    next: Node {
-      value: 30,
-      next: null
-    }
-  }
-}
 */
 
 // 🔁 এখন while loop দিয়ে প্রতিটা node এর value এক এক করে প্রিন্ট করব
