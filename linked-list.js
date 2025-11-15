@@ -44,7 +44,7 @@ while(temp !== null){
     // বর্তমান node এর value print করো
     console.log(temp.value);
 
-    // তারপর temp কে পরের node এ পাঠাও
+   
     temp = temp.next;
 }
 
