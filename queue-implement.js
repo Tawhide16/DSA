@@ -3,7 +3,10 @@ class Queue {
         this.items = []; // stack এর item গুলো রাখার জন্য array
     }
     //0(1)
-   
+    enqueue(value){
+        this.items.push(value); // নতুন item stack এর উপরে যোগ করা
+    }
+    //0(n)
     dequeue(){
         if(this.isEmpty()){
              return undefined; 
