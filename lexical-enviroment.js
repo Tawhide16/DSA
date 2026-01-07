@@ -1,6 +1,6 @@
 
 class counter {
-    // Constructor: object তৈরি হওয়ার সময় initial count value সেট করে
+    ে
     constructor(count) {
         this.count = count; // this.count = object এর count property
     }
