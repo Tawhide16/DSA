@@ -10,7 +10,7 @@ class counter {
         this.count = this.count + amount; // আগের count + নতুন amount
     }
 
-    
+    // print method: current count console এ দেখায়
     print(){
         console.log(this.count); // বর্তমান count দেখাবে
     }
